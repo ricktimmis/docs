@@ -18,6 +18,17 @@ To install the `buffalo-goth` plugin, run the following command:
 ```bash
 $ go get -u github.com/gobuffalo/buffalo-goth
 ```
+To check your plugin installation, run the following command:
+
+```bash
+$ buffalo plugins list
+```
+
+Registering plugins within buffalo can be achieved with the following command:
+
+```bash
+$ buffalo plugins install github.com/gobuffalo/buffalo-goth
+```
 
 ## Generator
 ```bash
